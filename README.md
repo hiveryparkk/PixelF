@@ -101,7 +101,7 @@ python main.py recon port_scan --help
 
 ---
 
-## 🔍 Reconnaissance Module
+## Reconnaissance Module
 
 ### Port Scanning
 Scan for open ports on a target:
@@ -130,7 +130,7 @@ python main.py recon service_detect example.com -p 21 22 80 443 3306
 
 ---
 
-## 🛡️ Vulnerability Scanning
+## Vulnerability Scanning
 
 ### Basic Vulnerability Scan
 Perform automated vulnerability checks:
@@ -147,7 +147,7 @@ python main.py vuln example.com -s deep
 
 ---
 
-## 💥 Exploitation Framework
+## Exploitation Framework
 
 ### Available Exploits
 - `ftp_anonymous`: Test for anonymous FTP login
@@ -171,7 +171,7 @@ python main.py exploit example.com xss -o url=http://example.com/comment.php
 
 ---
 
-## 🎛️ Command & Control (C2)
+## Command & Control (C2)
 
 ### Starting C2 Server
 ```bash
@@ -195,7 +195,7 @@ python main.py c2 client 192.168.1.100 -p 9999
 
 ---
 
-## 🛠️ Payload Generation
+## Payload Generation
 
 ### Available Payload Types
 - `reverse_shell`: Connect back to attacker
@@ -219,7 +219,7 @@ python main.py payload bind_shell -o bind_shell.py
 
 ---
 
-## 🎯 Post-Exploitation
+## Post-Exploitation
 
 ### Persistence
 Establish persistence on compromised systems:
@@ -263,7 +263,7 @@ python main.py post lateral 192.168.1.101 -t rdp
 
 ---
 
-## 📊 Reporting
+## Reporting
 
 ### Generate Reports
 
@@ -282,7 +282,7 @@ Reports are saved in the `reports/` directory.
 
 ---
 
-## ⚙️ Configuration & Logging
+## Configuration & Logging
 
 ### Logging
 - Logs are automatically created in `logs/` directory
@@ -300,7 +300,7 @@ export LOG_DIR=/path/to/custom/logs
 
 ---
 
-## 🔧 Advanced Usage
+## Advanced Usage
 
 ### Chaining Operations
 Combine multiple tools in sequence:
@@ -323,22 +323,22 @@ The framework can be integrated with other tools via:
 
 ---
 
-## 🚨 Important Security & Legal Notes
+## Important Security & Legal Notes
 
-### ⚠️ **LEGAL WARNING**
-- **This framework is for EDUCATIONAL and AUTHORIZED TESTING purposes ONLY**
-- **Never use on systems you do not own or have explicit permission to test**
-- **Comply with all applicable laws and regulations**
-- **Unauthorized use may result in criminal charges**
+### **LEGAL WARNING**
+- **This framework is for EDUCATIONAL and AUTHORIZED TESTING purposes ONLY.**
+- **Never use on systems you do not own or have explicit permission to test.**
+- **Comply with all applicable laws and regulations.**
+- **Unauthorized use may result in criminal charges.**
 
-### 🛡️ **Ethical Use Guidelines**
+### **Ethical Use Guidelines**
 1. **Obtain Written Permission**: Always get written authorization before testing
 2. **Scope Definition**: Clearly define testing scope and boundaries
 3. **Responsible Disclosure**: Report vulnerabilities through proper channels
 4. **Data Protection**: Handle sensitive data appropriately
 5. **Cleanup**: Remove all tools and restore systems after testing
 
-### 🔒 **Security Best Practices**
+### **Security Best Practices**
 - Use encrypted connections (HTTPS, SSH, etc.)
 - Implement proper access controls
 - Keep systems updated and patched
@@ -347,7 +347,7 @@ The framework can be integrated with other tools via:
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -383,7 +383,7 @@ python main.py <command>
 
 ---
 
-## 📚 Additional Resources
+## Additional Resources
 
 - [Penetration Testing Methodology](https://owasp.org/www-project-web-security-testing-guide/)
 - [Ethical Hacking Guidelines](https://www.eccouncil.org/ethical-hacking/)
@@ -391,7 +391,7 @@ python main.py <command>
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 The framework is designed to be extensible:
 
@@ -411,11 +411,3 @@ python -m pytest
 # Code formatting
 black .
 ```
-
----
-
-## 📄 License
-
-**This project is for educational purposes only. No license is provided for unauthorized use.**
-
-By using this framework, you agree to use it responsibly and only on systems you have permission to test.
